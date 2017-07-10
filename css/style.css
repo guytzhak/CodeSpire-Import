@@ -1,0 +1,131 @@
+/** Main **/
+
+
+@font-face{
+	font-family:'almoni-dl';
+	font-weight:300; /*(black)*/
+	font-style: normal;
+	src: url('fonts/almoni-dl-aaa-300.eot?1'); 
+	src: url('fonts/almoni-dl-aaa-300.eot?#iefix') format('embedded-opentype'), 
+		url('fonts/almoni-dl-aaa-300.ttf?1') format('truetype'), 
+		url('fonts/almoni-dl-aaa-300.woff?1') format('woff'), 
+		url('fonts/almoni-dl-aaa-300.svg#almoni-dl-300') format('svg');
+}
+
+@font-face{
+	font-family:'almoni-dl';
+	font-weight:400; /*(black)*/
+	font-style: normal;
+	src: url('fonts/almoni-dl-aaa-400.eot?1'); 
+	src: url('fonts/almoni-dl-aaa-400.eot?#iefix') format('embedded-opentype'), 
+		url('fonts/almoni-dl-aaa-400.ttf?1') format('truetype'), 
+		url('fonts/almoni-dl-aaa-400.woff?1') format('woff'), 
+		url('fonts/almoni-dl-aaa-400.svg#almoni-dl-400') format('svg');
+}
+
+@font-face{
+	font-family:'almoni-dl';
+	font-weight:700; /*(black)*/
+	font-style: normal;
+	src: url('fonts/almoni-dl-aaa-700.eot?1'); 
+	src: url('fonts/almoni-dl-aaa-700.eot?#iefix') format('embedded-opentype'), 
+		url('fonts/almoni-dl-aaa-700.ttf?1') format('truetype'), 
+		url('fonts/almoni-dl-aaa-700.woff?1') format('woff'), 
+		url('fonts/almoni-dl-aaa-700.svg#almoni-dl-700') format('svg');
+}
+
+@font-face{
+	font-family:'almoni-dl';
+	font-weight:900; /*(black)*/
+	font-style: normal;
+	src: url('fonts/almoni-dl-aaa-900.eot?1'); 
+	src: url('fonts/almoni-dl-aaa-900.eot?#iefix') format('embedded-opentype'), 
+		url('fonts/almoni-dl-aaa-900.ttf?1') format('truetype'), 
+		url('fonts/almoni-dl-aaa-900.woff?1') format('woff'), 
+		url('fonts/almoni-dl-aaa-900.svg#almoni-dl-900') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Bold';
+    src: url('fonts/2F113B_6_0.eot');
+    src: url('fonts/2F113B_6_0.eot?#iefix') format('embedded-opentype'),url('fonts/2F113B_6_0.woff2') format('woff2'),url('fonts/2F113B_6_0.woff')       format('woff'),url('fonts/2F113B_6_0.ttf') format('truetype');
+}
+
+#csimport_admin_page {
+    font-family:'almoni-dl';
+    font-weight: normal;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+#csimport_admin_page {
+    letter-spacing: 1px;
+}
+
+#csimport_admin_page b {
+    font-weight: 900;
+}
+
+#csimport_admin_page p {
+    font-size: 15px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 25px auto 0;
+}
+
+#csimport_admin_page .form {
+    background: #fff;
+    padding: 15px 25px 25px;
+    border-top: 10px solid #3ebf5e;
+}
+
+#csimport_admin_page .form form {
+    padding: 25px 15px 15px;
+    background: #f4f4f4;
+}
+
+#csimport_admin_page h1,#csimport_admin_page h2, #csimport_admin_page h3 {
+    font-family:'almoni-dl';
+    margin: 0 0 25px;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+#csimport_admin_page h1 {
+    font-size: 31px;
+}
+
+#csimport_admin_page h3 {
+    font-size: 17px;
+    margin: 25px 0 0;
+}
+
+#csimport_admin_page .form label {
+    margin: 0 0 15px;
+}
+
+#csimport_admin_page .form input[type="file"] {
+    margin: 25px 0 0;
+    font-size: 16px;
+}
+
+#csimport_admin_page .form input[type="submit"] {
+    background: #2bb94e;
+    font-weight: 900;
+    display: block;
+    clear: both;
+    width: 170px;
+    padding: 0;
+    margin: 25px 0 0;
+    border: 0;
+    line-height: 32px;
+    font-size: 18px;
+    height: 32px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
